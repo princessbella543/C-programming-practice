@@ -1,0 +1,21 @@
+#include<stdio.h>
+  int main(){
+      int totalseconds;
+      int hours,minutes,seconds;
+      
+      printf("enter the total number of seconds:");
+      scanf("%d",& totalseconds);
+      
+      hours=totalseconds/3600;
+      minutes=(totalseconds %3600)/60;
+      seconds=totalseconds%60;
+      
+       printf("hours:%d\n",hours);
+       
+       printf("minutes:%d\n",minutes);
+       
+       printf("seconds:%d\n",seconds);
+       
+  return 0;
+  }
+
